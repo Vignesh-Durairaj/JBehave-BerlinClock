@@ -5,18 +5,15 @@ import org.apache.commons.lang.StringUtils;
 import com.vikhi.practice.pojo.Time;
 import com.vikhi.practice.throwable.InvalidTimeFormatException;
 
-public class TimeUtil {
+public class TimeUtil implements IConstants{
 
-	private static final String SEPARATOR_COLON = ":";
-	private static final String WHITE_SPACE = " ";
-	
 	private TimeUtil() {
 		// Can be implemented if needed in future.
 	}
 	
 	public static Time getTimeFromString(final String timeStr) 
 			throws InvalidTimeFormatException{
-		if (timeStr != null && StringUtils.isBlank(timeStr) 
+		if (timeStr != null && StringUtils.isNotBlank(timeStr) 
 				&& StringUtils.countMatches(timeStr, SEPARATOR_COLON) == 2 
 				&& !timeStr.contains(WHITE_SPACE)) {
 			String[] dateArray = timeStr.split(SEPARATOR_COLON);

@@ -1,5 +1,8 @@
 package com.vikhi.practice.pojo;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 public class Time {
 
 	private int hour;
@@ -8,6 +11,8 @@ public class Time {
 	
 	private int second;
 
+	private NumberFormat numberFormat = new DecimalFormat("00");
+	
 	public Time(int hour, int minute, int second) {
 		super();
 		this.hour = hour;
@@ -29,6 +34,8 @@ public class Time {
 
 	@Override
 	public String toString() {
-		return this.hour + ":" + this.minute + ":" + this.second;
+		return numberFormat.format(this.hour) + ":" 
+				+ numberFormat.format(this.minute) + ":" 
+				+ numberFormat.format(this.second);
 	}
 }
