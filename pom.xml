@@ -20,6 +20,13 @@
   				<exclude>**/*.java</exclude>
   			</excludes>
   		</resource>
+  		<resource>
+  			<directory>src/test/java</directory>
+  			<includes>
+  				<include>**/*.story</include>
+  			</includes>
+  			<targetPath>../test-classes/</targetPath>
+  		</resource>
   	</resources>
   	
   	<plugins>
@@ -32,6 +39,35 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      
+      <plugin>
+	    <groupId>org.jbehave</groupId>
+	    <artifactId>jbehave-maven-plugin</artifactId>
+	    <version>4.0.3</version>
+	    <executions>
+	        <execution>
+	            <id>run-stories-as-embeddables</id>
+	            <phase>integration-test</phase>
+	            <configuration>
+	            	<scope>test</scope>
+	                <includes>
+	                    <include>**/*Story.java</include>
+	                </includes>
+	                <systemProperties>
+	                    <property>
+	                      <name>java.awt.headless</name>
+	                      <value>true</value>
+	                    </property>
+	                </systemProperties>
+	                <ignoreFailureInStories>true</ignoreFailureInStories>
+	                <ignoreFailureInView>false</ignoreFailureInView>
+	            </configuration>
+	            <goals>
+	                <goal>run-stories-as-embeddables</goal>
+	            </goals>
+	        </execution>
+	    </executions>
+	  </plugin>
     </plugins>
   	
   </build>
