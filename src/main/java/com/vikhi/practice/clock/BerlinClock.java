@@ -1,15 +1,16 @@
 package com.vikhi.practice.clock;
 
+import static com.vikhi.practice.util.Constants.SEPARATOR_HYPHEN;
+
 import java.util.stream.IntStream;
 
 import org.apache.commons.lang.StringUtils;
 
 import com.vikhi.practice.pojo.Light;
 import com.vikhi.practice.pojo.Time;
-import com.vikhi.practive.util.IConstants;
-import com.vikhi.practive.util.TimeUtil;
+import com.vikhi.practice.util.TimeUtil;
 
-public class BerlinClock implements Clock, IConstants {
+public class BerlinClock implements Clock {
 
 	private boolean isTurnedOn;
 	
@@ -55,10 +56,9 @@ public class BerlinClock implements Clock, IConstants {
 				});
 				
 				IntStream.range(1, 12)
-				.forEach(i -> {
+				.forEach(i -> 
 					this.thirdRow = this.thirdRow + ((this.isTurnedOn && i <= time.getMinute()/5) ? 
-							((i%3 > 0) ? Light.YELLOW.toString() : Light.RED.toString()) : Light.OFF.toString());
-				});
+							((i%3 > 0) ? Light.YELLOW.toString() : Light.RED.toString()) : Light.OFF.toString()));
 				
 			}
 		}

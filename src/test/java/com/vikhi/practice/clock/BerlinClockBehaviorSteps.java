@@ -8,7 +8,7 @@ import org.junit.Assert;
 
 import com.vikhi.practice.pojo.Time;
 import com.vikhi.practice.throwable.InvalidTimeFormatException;
-import com.vikhi.practive.util.TimeUtil;
+import com.vikhi.practice.util.TimeUtil;
 
 public class BerlinClockBehaviorSteps {
 

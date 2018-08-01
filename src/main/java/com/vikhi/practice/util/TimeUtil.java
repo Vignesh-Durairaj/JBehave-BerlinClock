@@ -1,11 +1,14 @@
-package com.vikhi.practive.util;
+package com.vikhi.practice.util;
+
+import static com.vikhi.practice.util.Constants.SEPARATOR_COLON;
+import static com.vikhi.practice.util.Constants.WHITE_SPACE;
 
 import org.apache.commons.lang.StringUtils;
 
 import com.vikhi.practice.pojo.Time;
 import com.vikhi.practice.throwable.InvalidTimeFormatException;
 
-public class TimeUtil implements IConstants{
+public class TimeUtil {
 
 	private TimeUtil() {
 		// Can be implemented if needed in future.
