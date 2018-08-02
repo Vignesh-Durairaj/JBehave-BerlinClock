@@ -10,23 +10,23 @@ Given the clock is turned OFF
 When the time is '12:33:22'
 Then the display lights will be of pattern 'O-OOOO-OOOO-OOOOOOOOOOO-OOOO'
 
-Scenario: Berlin clock ON
+Scenario: Berlin clock ON and after mid noon
 Given the clock is turned ON
 When the time is '12:24:33'
 Then the display lights will be of pattern 'O-RROO-RROO-YYRYOOOOOOO-YYYY'
 
 
-Scenario: Berlin clock ON
+Scenario: Berlin clock ON and just before midnight
 Given the clock is turned ON
 When the time is '23:59:59'
 Then the display lights will be of pattern 'O-RRRR-RRRO-YYRYYRYYRYY-YYYY'
 
-Scenario: Berlin clock ON
+Scenario: Berlin clock ON and exactly at midnight
 Given the clock is turned ON
 When the time is '00:00:00'
 Then the display lights will be of pattern 'Y-RRRR-RRRR-OOOOOOOOOOO-OOOO'
 
-Scenario: Berlin clock ON
+Scenario: Berlin clock ON and 8 minutes after midnight
 Given the clock is turned ON
 When the time is '00:08:14'
 Then the display lights will be of pattern 'Y-OOOO-OOOO-YOOOOOOOOOO-YYYO'
