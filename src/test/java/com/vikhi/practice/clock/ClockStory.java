@@ -9,7 +9,7 @@ import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.steps.InjectableStepsFactory;
 import org.jbehave.core.steps.InstanceStepsFactory;
 
-public class BerlinClockStory extends JUnitStory {
+public class ClockStory extends JUnitStory {
 
 	@Override
 	public Configuration configuration() {
@@ -23,6 +23,6 @@ public class BerlinClockStory extends JUnitStory {
 	@Override
 	public InjectableStepsFactory stepsFactory() {
 		return new InstanceStepsFactory(configuration(), 
-				new BerlinClockBehaviorSteps());
+				new ClockBehaviorSteps());
 	}
 }

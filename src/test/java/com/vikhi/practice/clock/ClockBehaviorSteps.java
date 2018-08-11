@@ -10,15 +10,28 @@ import com.vikhi.practice.pojo.Time;
 import com.vikhi.practice.throwable.InvalidTimeFormatException;
 import com.vikhi.practice.util.TimeUtil;
 
-public class BerlinClockBehaviorSteps {
+public class ClockBehaviorSteps {
 
 	Clock clock = null;
 	
 	String displayValStr = null;
 	
+	@Given("a $clockType")
+	public void getClockType(@Named ("clockType")String clockType) {
+		clock = null;
+		
+		if (clockType.equalsIgnoreCase("BERLIN CLOCK")) {
+			clock = new BerlinClock();
+		} else if (clockType.equalsIgnoreCase("DIGITAL CLOCK")) {
+			clock = new DigitalClock();
+		}
+	}
+	
 	@Given("the clock is turned $switch")
 	public void givenBerlinClock(@Named ("switch") String switchStatus) {
-		clock = new BerlinClock();
+		
+		Assert.assertNotNull(clock);
+		
 		if (switchStatus != null && switchStatus.equalsIgnoreCase("ON")) {
 			clock.turnClockOn();
 		} else {
