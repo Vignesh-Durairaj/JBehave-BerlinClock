@@ -46,7 +46,7 @@ Scenario: A Digital clock is ON at early in the morning
 Given a Digital Clock
 And the clock is turned ON
 When the time is '07:34:00'
-Then the display lights will be of pattern '07:34:00 A'
+Then the display lights will be of pattern '7:34:00 A'
 
 Scenario: A Digital clock is ON at sometime after midday
 Given a Digital Clock
