@@ -1,18 +1,20 @@
 
 
-<table style="border:none;">
-	<tr style="text-align:middle; align:center;">
-		<td>
-			<h2>An Exercise on JBehave<h2>
-		</td>
-		<td>&nbsp;&nbsp;&nbsp;</td>
-		<td>&nbsp;&nbsp;&nbsp;</td>
-		<td>&nbsp;&nbsp;&nbsp;</td>
-		<td>&nbsp;&nbsp;&nbsp;</td>
-		<td>
-			<img src="https://jbehave.org/images/jbehave-logo.png" />
-		</td>
-	</tr>
+<table style="border:0;">
+	<tbody style="border:0;">
+		<tr style="text-align:middle; align:center;">
+			<td>
+				<h2>An Exercise on JBehave<h2>
+			</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td>
+				<img src="https://jbehave.org/images/jbehave-logo.png" />
+			</td>
+		</tr>
+	</tbody>
 </table>
 <hr/> 
 
