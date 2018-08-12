@@ -1,6 +1,21 @@
-## JBehave Exercise 
 
-![alt text](https://jbehave.org/images/jbehave-logo.png)
+
+<table>
+	<tr>
+		<td>
+			<img src="https://jbehave.org/images/jbehave-logo.png" />
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+		<td>
+			<h1>An Exercise on JBehave<h1>
+		</td>
+	</tr>
+</table>
+<hr/> 
+
+
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **JBehave** framework. 
 
