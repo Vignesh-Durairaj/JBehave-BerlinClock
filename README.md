@@ -1,4 +1,4 @@
-### JBehave Exercise 
+## JBehave Exercise 
 
 ![alt text](https://jbehave.org/images/jbehave-logo.png)
 
