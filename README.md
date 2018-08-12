@@ -1,7 +1,7 @@
 
 
-<table border="none">
-	<tr>
+<table style="border:none;">
+	<tr style="text-align:middle; align:center;">
 		<td>
 			<h2>An Exercise on JBehave<h2>
 		</td>
