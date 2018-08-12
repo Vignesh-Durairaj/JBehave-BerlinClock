@@ -3,7 +3,9 @@
 <img src="https://jbehave.org/images/jbehave-logo.png"
      alt="JBehave Logo"
      style="float: right; margin-left: 10px;" 
-     class="float-right"/>
+     align="right"/>
+
+## What it has got ?
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **JBehave** framework. 
 
