@@ -1,16 +1,16 @@
 
 
-<table style="border:0;">
-	<tbody style="border:0;">
-		<tr style="text-align:middle; align:center;">
-			<td>
+<table>
+	<tbody>
+		<tr>
+			<td style="border:0px;">
 				<h2>An Exercise on JBehave<h2>
 			</td>
-			<td>&nbsp;&nbsp;&nbsp;</td>
-			<td>&nbsp;&nbsp;&nbsp;</td>
-			<td>&nbsp;&nbsp;&nbsp;</td>
-			<td>&nbsp;&nbsp;&nbsp;</td>
-			<td>
+			<td style="border:0px;">&nbsp;&nbsp;&nbsp;</td>
+			<td style="border:0px;">&nbsp;&nbsp;&nbsp;</td>
+			<td style="border:0px;">&nbsp;&nbsp;&nbsp;</td>
+			<td style="border:0px;">&nbsp;&nbsp;&nbsp;</td>
+			<td style="border:0px;">
 				<img src="https://jbehave.org/images/jbehave-logo.png" />
 			</td>
 		</tr>
