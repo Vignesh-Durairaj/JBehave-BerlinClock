@@ -1,11 +1,11 @@
-## JBehave Exercise
+
 
 <img src="https://jbehave.org/images/jbehave-logo.png"
      alt="JBehave Logo"
      style="float: right; margin-left: 10px;" 
      align="right"/>
 
-## What it has got ?
+## JBehave Exercise
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **JBehave** framework. 
 
