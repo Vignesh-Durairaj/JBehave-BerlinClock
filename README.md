@@ -1,9 +1,9 @@
 
 
-<table border="0">
+<table border="none">
 	<tr>
 		<td>
-			<h1>An Exercise on JBehave<h1>
+			<h2>An Exercise on JBehave<h2>
 		</td>
 		<td>&nbsp;&nbsp;&nbsp;</td>
 		<td>&nbsp;&nbsp;&nbsp;</td>
@@ -23,8 +23,8 @@ A sample program to test the **Behavioral Driven Development (BDD)** using **JBe
 1. To start with, a `story` file was written which acts a test case list in an user readable format.
 2. A corresponding `steps` java class and a `story` java class were written to realize the test case scenarios using the _story_ file.
 3. A `Clock` interface was used to evaluate its behavior when it is implemented as 
-  * A [Berlin Clock](https://en.wikipedia.org/wiki/Mengenlehreuhr)
-  * A classic [Digital Clock](https://en.wikipedia.org/wiki/Digital_clock)
+  1. A [Berlin Clock](https://en.wikipedia.org/wiki/Mengenlehreuhr)
+  2. A classic [Digital Clock](https://en.wikipedia.org/wiki/Digital_clock)
 
 ***
 Reference : [Documentation](https://jbehave.org/)
