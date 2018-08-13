@@ -9,4 +9,7 @@ public class Constants {
 	public static final String SEPARATOR_HYPHEN = "-";
 	public static final String SEPARATOR_COLON = ":";
 	public static final String WHITE_SPACE = " ";
+	
+	public static final String TIME_AM = "A";
+	public static final String TIME_PM = "P";
 }
