@@ -40,7 +40,7 @@ Scenario: A Digital clock is OFF
 Given a Digital Clock
 And the clock is turned OFF
 When the time is '07:34:00'
-Then the display lights will be of pattern '--:--:-- A'
+Then the display lights will be of pattern '--:--:-- -'
 
 Scenario: A Digital clock is ON at early in the morning
 Given a Digital Clock
@@ -70,4 +70,4 @@ Scenario: A Digital clock is ON somewhere after midnight
 Given a Digital Clock
 And the clock is turned ON
 When the time is '00:27:10'
-Then the display lights will be of pattern '12:27:10 P'
+Then the display lights will be of pattern '12:27:10 A'
