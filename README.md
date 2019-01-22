@@ -7,6 +7,8 @@
 
 ## JBehave Exercise
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/382e4cb8a65f48a69d5dbef67c2173b9)](https://app.codacy.com/app/Vignesh-Durairaj/JBehave-BerlinClock?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/JBehave-BerlinClock&utm_campaign=Badge_Grade_Dashboard)
+
 A sample program to test the **Behavioral Driven Development (BDD)** using **JBehave** framework. 
 
 1. To start with, a `story` file was written which acts a test case list in an user readable format.
