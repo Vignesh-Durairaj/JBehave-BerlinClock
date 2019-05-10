@@ -43,11 +43,11 @@
       <plugin>
 	    <groupId>org.jbehave</groupId>
 	    <artifactId>jbehave-maven-plugin</artifactId>
-	    <version>4.0.3</version>
+	    <version>4.4</version>
 	    <executions>
 	        <execution>
 	            <id>run-stories-as-embeddables</id>
-	            <phase>integration-test</phase>
+	            <phase>test</phase>
 	            <configuration>
 	            	<scope>test</scope>
 	                <includes>
@@ -59,7 +59,7 @@
 	                      <value>true</value>
 	                    </property>
 	                </systemProperties>
-	                <ignoreFailureInStories>true</ignoreFailureInStories>
+	                <ignoreFailureInStories>false</ignoreFailureInStories>
 	                <ignoreFailureInView>false</ignoreFailureInView>
 	            </configuration>
 	            <goals>
@@ -67,6 +67,31 @@
 	            </goals>
 	        </execution>
 	    </executions>
+	  </plugin>
+	  
+	  <plugin>
+	  	<artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+	  	<executions>
+	  		<execution>
+	        	<id>copy-resources</id>
+	        	<phase>test</phase>
+	        	<goals>
+	        		<goal>copy-resources</goal>
+	        	</goals>
+	        	<configuration>
+	        		<outputDirectory>target/surefire-reports</outputDirectory>
+	        		<resources>
+	        			<resource>
+	        				<directory>target/jbehave/view</directory>
+	        				<includes>
+	        					<include>**/*</include>
+	        				</includes>
+	        			</resource>
+	        		</resources>
+	        	</configuration>
+	        </execution>
+	  	</executions>
 	  </plugin>
 	  
 	  <plugin>
@@ -121,7 +146,7 @@
 	  <dependency>
 	  	<groupId>org.jbehave</groupId>
 	    <artifactId>jbehave-core</artifactId>
-	    <version>4.0.3</version>
+	    <version>4.4</version>
 	  </dependency>
   </dependencies>
   

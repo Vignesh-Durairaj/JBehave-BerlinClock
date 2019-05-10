@@ -4,7 +4,7 @@ import static com.vikhi.practice.util.Constants.SEPARATOR_HYPHEN;
 
 import java.util.stream.IntStream;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import com.vikhi.practice.pojo.Light;
 import com.vikhi.practice.pojo.Time;
