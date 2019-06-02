@@ -2,6 +2,8 @@
 
 <img src="https://jbehave.org/images/jbehave-logo.png"
      alt="JBehave Logo"
+     width="80%" 
+     height="80%"
      style="float: right; margin-left: 10px;" 
      align="right"/>
 
