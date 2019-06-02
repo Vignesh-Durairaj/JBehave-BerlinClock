@@ -8,7 +8,7 @@
 ## JBehave Exercise
 
 [![CircleCI](https://circleci.com/gh/Vignesh-Durairaj/JBehave-BerlinClock.svg?style=svg)](https://circleci.com/gh/Vignesh-Durairaj/JBehave-BerlinClock) 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/382e4cb8a65f48a69d5dbef67c2173b9)](https://app.codacy.com/app/Vignesh-Durairaj/JBehave-BerlinClock?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/JBehave-BerlinClock&utm_campaign=Badge_Grade_Dashboard) [![Code Coverage](https://codecov.io/gh/Vignesh-Durairaj/JBehave-BerlinClock/branch/master/graph/badge.svg)](https://codecov.io/gh/Vignesh-Durairaj/JBehave-BerlinClock)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/382e4cb8a65f48a69d5dbef67c2173b9)](https://app.codacy.com/app/Vignesh-Durairaj/JBehave-BerlinClock?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/JBehave-BerlinClock&utm_campaign=Badge_Grade_Dashboard) [![Code Coverage](https://codecov.io/gh/Vignesh-Durairaj/JBehave-BerlinClock/branch/master/graph/badge.svg)](https://codecov.io/gh/Vignesh-Durairaj/JBehave-BerlinClock) ![Twitter Follow](https://img.shields.io/twitter/follow/vigneshdurairaj.svg?style=social)
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **JBehave** framework. 
 
